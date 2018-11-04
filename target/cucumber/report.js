@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2263045979,
+  "duration": 2414325574,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,29 +37,29 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 127877613,
+  "duration": 139230596,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 23385204783,
+  "duration": 14700651049,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidationSteps.openweathermapHomePageIsDisplayedWithLinksAndSearchBox()"
 });
 formatter.result({
-  "duration": 167242629,
+  "duration": 158247685,
   "status": "passed"
 });
 formatter.after({
-  "duration": 103033061,
+  "duration": 98038183,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1222951906,
+  "duration": 1144097100,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,14 +99,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 1279691,
+  "duration": 615098,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 33219970719,
+  "duration": 18017184944,
   "status": "passed"
 });
 formatter.match({
@@ -119,29 +119,29 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 160808249,
+  "duration": 140659487,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 1513667639,
+  "duration": 1978270375,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidationSteps.noResultsShouldBeDisplayed()"
 });
 formatter.result({
-  "duration": 2056905398,
+  "duration": 2098181012,
   "status": "passed"
 });
 formatter.after({
-  "duration": 112210982,
+  "duration": 168380043,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1055451819,
+  "duration": 1076659501,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,14 +181,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 1467420,
+  "duration": 978328,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 29040951841,
+  "duration": 13119131356,
   "status": "passed"
 });
 formatter.match({
@@ -201,14 +201,14 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 157144302,
+  "duration": 146402525,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 1392514296,
+  "duration": 15865634887,
   "status": "passed"
 });
 formatter.match({
@@ -221,15 +221,15 @@ formatter.match({
   "location": "ValidationSteps.weatherDetailsShouldBeDisplayed(String)"
 });
 formatter.result({
-  "duration": 112986846,
+  "duration": 106935953,
   "status": "passed"
 });
 formatter.after({
-  "duration": 88922267,
+  "duration": 111571428,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1138561922,
+  "duration": 1097067072,
   "status": "passed"
 });
 formatter.scenario({
@@ -269,14 +269,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 1675095,
+  "duration": 848079,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 44840278252,
+  "duration": 11546185767,
   "status": "passed"
 });
 formatter.match({
@@ -289,29 +289,29 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 159036461,
+  "duration": 135643685,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 25724832160,
+  "duration": 2152373885,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidationSteps.singleOrMultipleCitiesWeatherDetailsShouldBeDisplayed()"
 });
 formatter.result({
-  "duration": 65135131,
+  "duration": 73194194,
   "status": "passed"
 });
 formatter.after({
-  "duration": 139068508,
+  "duration": 142775476,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1082574747,
+  "duration": 1110160232,
   "status": "passed"
 });
 formatter.scenario({
@@ -361,14 +361,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 1419113,
+  "duration": 729752,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 32862997907,
+  "duration": 18884441642,
   "status": "passed"
 });
 formatter.match({
@@ -381,21 +381,21 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 153160934,
+  "duration": 149310910,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 1396461006,
+  "duration": 1431628472,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.iChangeTheWeatherSwatchToF()"
 });
 formatter.result({
-  "duration": 2050119501,
+  "duration": 1111639707,
   "status": "passed"
 });
 formatter.match({
@@ -408,7 +408,7 @@ formatter.match({
   "location": "HomePageSteps.iClickOnCityName(String)"
 });
 formatter.result({
-  "duration": 1659356927,
+  "duration": 4110198866,
   "status": "passed"
 });
 formatter.match({
@@ -421,11 +421,11 @@ formatter.match({
   "location": "ValidationSteps.cityWeatherShouldBeDisplayedInFarenheit(String)"
 });
 formatter.result({
-  "duration": 99324199,
+  "duration": 86853671,
   "status": "passed"
 });
 formatter.after({
-  "duration": 110918205,
+  "duration": 95061355,
   "status": "passed"
 });
 });
