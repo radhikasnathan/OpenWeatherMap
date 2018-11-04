@@ -1,4 +1,6 @@
-
+/*
+This is where the test is initiated or called as the Cucumber runner
+ */
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;

@@ -1,5 +1,9 @@
 package utilities;
 
+/*
+This class file is built to read the property file
+ */
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;

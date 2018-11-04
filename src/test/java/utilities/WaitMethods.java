@@ -1,3 +1,7 @@
+/*
+These are extended form of Selenium Waits
+ */
+
 package utilities;
 
 import org.openqa.selenium.*;

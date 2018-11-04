@@ -1,3 +1,7 @@
+/*
+This is a reusable function library which follows p[age object model and basically does action
+and validation on Objects
+ */
 package reusablefunctions;
 
 import org.openqa.selenium.WebDriver;

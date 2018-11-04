@@ -1,3 +1,7 @@
+/*
+All the validation steps from cucumber are compiled here
+ */
+
 package stepdefinition;
 
 import cucumber.api.PendingException;

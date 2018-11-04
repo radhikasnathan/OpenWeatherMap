@@ -1,3 +1,7 @@
+/*
+These are unique steps pertaining to the Home Page
+ */
+
 package stepdefinition;
 
 import cucumber.api.java.en.And;

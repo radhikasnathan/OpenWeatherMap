@@ -1,3 +1,6 @@
+/*
+This utility is built to handle multiple vallues for the scenario
+ */
 package utilities;
 
 import java.io.FileInputStream;
