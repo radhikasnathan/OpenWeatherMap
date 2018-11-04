@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec05cbb8-0aa5-4b79-9083-c77b07b4f5fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,17 +29,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="1270" />
-          <entry key="java" value="7194" />
+          <entry key="java" value="7226" />
           <entry key="properties" value="4" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="41" />
           <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="1270" />
-          <entry key="JAVA" value="7194" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="7226" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="34" />
         </counts>
@@ -50,6 +50,7 @@
           <entry key="feature" value="2" />
           <entry key="html" value="1" />
           <entry key="java" value="16" />
+          <entry key="json" value="1" />
           <entry key="png" value="4" />
           <entry key="properties" value="1" />
           <entry key="xml" value="1" />
@@ -62,6 +63,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="4" />
           <entry key="JAVA" value="16" />
+          <entry key="JSON" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -141,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="-94">
+              <caret line="37" column="72" lean-forward="true" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -414,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541325382731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Sauce lab Integrations">
+      <created>1541341429473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541341429473</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Sauce lab Integrations">
+      <created>1541342213043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541342213043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -453,7 +469,7 @@
     <frame x="0" y="23" width="1440" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -502,7 +518,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Test Results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Test Results" />
+    <MESSAGE value="Adding Sauce lab Integrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Sauce lab Integrations" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DataProcessor.java">
@@ -618,10 +635,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7129" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="-94">
+          <caret line="37" column="72" lean-forward="true" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
