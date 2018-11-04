@@ -5,6 +5,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -30,10 +31,10 @@ public class BrowserDriver {
 
 
              DesiredCapabilities caps = new DesiredCapabilities();
-              caps.setBrowserName(System.getenv("SELENIUM_BROWSER"));
-             caps.setCapability("platform", System.getenv("SELENIUM_PLATFORM"));
-             caps.setCapability("version", System.getenv("SELENIUM_VERSION"));
-            caps.setCapability("build", scenario.getName() + "__" + System.getenv("BUILD_NUMBER"));
+             caps.setBrowserName(System.getenv("chrome"));
+             caps.setVersion(System.getenv("49"));
+             caps.setCapability("platform", System.getenv("Mac 10.13"));
+            caps.setCapability("name", scenario.getName() + "__" + System.getenv("BUILD_NUMBER"));
             driver = new RemoteWebDriver(new URL(SAUCE_LABS_URL), caps);
             driver.manage().window().maximize();
             //Sauce labs reporting
