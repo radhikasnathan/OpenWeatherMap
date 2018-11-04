@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2414325574,
+  "duration": 23527541158,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,29 +37,29 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 139230596,
+  "duration": 140049099,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 14700651049,
+  "duration": 20661110232,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidationSteps.openweathermapHomePageIsDisplayedWithLinksAndSearchBox()"
 });
 formatter.result({
-  "duration": 158247685,
+  "duration": 5539229158,
   "status": "passed"
 });
 formatter.after({
-  "duration": 98038183,
+  "duration": 477502435,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1144097100,
+  "duration": 12253391026,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,14 +99,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 615098,
+  "duration": 1257293,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 18017184944,
+  "duration": 8208955919,
   "status": "passed"
 });
 formatter.match({
@@ -119,29 +119,29 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 140659487,
+  "duration": 2002687666,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 1978270375,
+  "duration": 4114608514,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidationSteps.noResultsShouldBeDisplayed()"
 });
 formatter.result({
-  "duration": 2098181012,
+  "duration": 4050710622,
   "status": "passed"
 });
 formatter.after({
-  "duration": 168380043,
+  "duration": 424229821,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1076659501,
+  "duration": 11923410036,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,14 +181,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 978328,
+  "duration": 967599,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 13119131356,
+  "duration": 8402221575,
   "status": "passed"
 });
 formatter.match({
@@ -201,14 +201,14 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 146402525,
+  "duration": 2099775855,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 15865634887,
+  "duration": 933230298,
   "status": "passed"
 });
 formatter.match({
@@ -221,15 +221,15 @@ formatter.match({
   "location": "ValidationSteps.weatherDetailsShouldBeDisplayed(String)"
 });
 formatter.result({
-  "duration": 106935953,
+  "duration": 4969492289,
   "status": "passed"
 });
 formatter.after({
-  "duration": 111571428,
+  "duration": 463138216,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1097067072,
+  "duration": 12569877669,
   "status": "passed"
 });
 formatter.scenario({
@@ -269,14 +269,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 848079,
+  "duration": 819283,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 11546185767,
+  "duration": 9046836291,
   "status": "passed"
 });
 formatter.match({
@@ -289,29 +289,29 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 135643685,
+  "duration": 2624269492,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 2152373885,
+  "duration": 3015610467,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidationSteps.singleOrMultipleCitiesWeatherDetailsShouldBeDisplayed()"
 });
 formatter.result({
-  "duration": 73194194,
+  "duration": 1737148206,
   "status": "passed"
 });
 formatter.after({
-  "duration": 142775476,
+  "duration": 462988812,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1110160232,
+  "duration": 11141338960,
   "status": "passed"
 });
 formatter.scenario({
@@ -361,14 +361,14 @@ formatter.match({
   "location": "CommonSteps.webBrowserIsLaunched()"
 });
 formatter.result({
-  "duration": 729752,
+  "duration": 732314,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
 });
 formatter.result({
-  "duration": 18884441642,
+  "duration": 9293155360,
   "status": "passed"
 });
 formatter.match({
@@ -381,21 +381,21 @@ formatter.match({
   "location": "CommonSteps.iEnterInTheSearch(String)"
 });
 formatter.result({
-  "duration": 149310910,
+  "duration": 2094765687,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 1431628472,
+  "duration": 3101904266,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.iChangeTheWeatherSwatchToF()"
 });
 formatter.result({
-  "duration": 1111639707,
+  "duration": 6786802399,
   "status": "passed"
 });
 formatter.match({
@@ -408,7 +408,7 @@ formatter.match({
   "location": "HomePageSteps.iClickOnCityName(String)"
 });
 formatter.result({
-  "duration": 4110198866,
+  "duration": 4654594326,
   "status": "passed"
 });
 formatter.match({
@@ -421,11 +421,14 @@ formatter.match({
   "location": "ValidationSteps.cityWeatherShouldBeDisplayedInFarenheit(String)"
 });
 formatter.result({
-  "duration": 86853671,
-  "status": "passed"
+  "duration": 2683811715,
+  "error_message": "java.lang.AssertionError: Temperature is not displayed in Farenheit expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertTrue(Assert.java:42)\n\tat reusablefunctions.HomePageFunctions.validateTempConversion(HomePageFunctions.java:85)\n\tat stepdefinition.ValidationSteps.cityWeatherShouldBeDisplayedInFarenheit(ValidationSteps.java:58)\n\tat ✽.Then \"Mumbai\" City weather should be displayed in Farenheit(citysearch.feature:42)\n",
+  "status": "failed"
 });
+formatter.write("Current Page URL is https://openweathermap.org/city/1275339");
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 95061355,
+  "duration": 7019100952,
   "status": "passed"
 });
 });
