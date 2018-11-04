@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec05cbb8-0aa5-4b79-9083-c77b07b4f5fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,17 +29,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="1270" />
-          <entry key="java" value="7237" />
+          <entry key="java" value="7285" />
           <entry key="properties" value="4" />
-          <entry key="txt" value="41" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="1270" />
-          <entry key="JAVA" value="7237" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="JAVA" value="7285" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="35" />
         </counts>
@@ -142,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="146">
+              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -452,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541348498300</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Make Sauce lab enabled">
+      <created>1541348817488</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541348817488</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,7 +549,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Test Results" />
     <MESSAGE value="Adding Sauce lab Integrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Sauce lab Integrations" />
+    <MESSAGE value="Make Sauce lab enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Sauce lab enabled" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DataProcessor.java">
@@ -673,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="146">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

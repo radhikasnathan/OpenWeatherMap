@@ -31,9 +31,9 @@ public class BrowserDriver {
 
 
              DesiredCapabilities caps = new DesiredCapabilities();
-             caps.setBrowserName("chrome");
-             caps.setVersion("49");
-             caps.setCapability("platform", "Mac 10.13");
+             caps.setBrowserName(System.getenv("Browser"));
+             caps.setVersion(System.getenv("SELENIUM_VERSION"));
+             caps.setCapability("platform", System.getenv("OS"));
             caps.setCapability("name", scenario.getName() + "__" + System.getenv("BUILD_NUMBER"));
             driver = new RemoteWebDriver(new URL(SAUCE_LABS_URL), caps);
             driver.manage().window().maximize();
