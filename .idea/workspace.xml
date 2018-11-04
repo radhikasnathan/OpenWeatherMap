@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec05cbb8-0aa5-4b79-9083-c77b07b4f5fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/BrowserDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinition/BrowserDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,19 +29,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="1270" />
-          <entry key="java" value="7227" />
+          <entry key="java" value="7233" />
           <entry key="properties" value="4" />
           <entry key="txt" value="41" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="1270" />
-          <entry key="JAVA" value="7227" />
+          <entry key="JAVA" value="7233" />
           <entry key="PLAIN_TEXT" value="41" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="34" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,7 +53,7 @@
           <entry key="json" value="1" />
           <entry key="png" value="4" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,7 +65,7 @@
           <entry key="JAVA" value="16" />
           <entry key="JSON" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -141,14 +140,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="-332">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="865">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -187,7 +195,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/propertyfiles/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/PropFileReader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/DataProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/WaitMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/HomePageSteps.java" />
@@ -200,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/ValidationSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/reusablefunctions/HomePageFunctions.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -247,38 +255,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenWeatherMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenWeatherMap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenWeatherMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenWeatherMap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reusablefunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenWeatherMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenWeatherMap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenWeatherMap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenWeatherMap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenWeatherMap" type="b2602c69:ProjectViewProjectNode" />
@@ -438,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541345605042</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Sauce lab Integrations">
+      <created>1541346211615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541346211615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding Sauce lab Integrations">
+      <created>1541346403679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541346403679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -559,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="57" column="21" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="57" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementListHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -650,11 +633,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/BrowserDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="-332">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
