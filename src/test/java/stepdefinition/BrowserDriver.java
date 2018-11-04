@@ -32,7 +32,7 @@ public class BrowserDriver {
 
              DesiredCapabilities caps = new DesiredCapabilities();
              caps.setBrowserName(System.getenv("Browser"));
-             caps.setVersion(System.getenv("SELENIUM_VERSION"));
+             //caps.setVersion(System.getenv("SELENIUM_VERSION"));
              caps.setCapability("platform", System.getenv("OS"));
             caps.setCapability("name", scenario.getName() + "__" + System.getenv("BUILD_NUMBER"));
             driver = new RemoteWebDriver(new URL(SAUCE_LABS_URL), caps);
