@@ -20,7 +20,7 @@ public class BrowserDriver {
     public static final String ACCESS_KEY = "dc4f46fb-bcb0-45c1-a670-36789ab103fe";
     public static final String SAUCE_LABS_URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
 
-    public boolean useSauceLabsHub = true;
+    public boolean useSauceLabsHub = false;
 
 
     @Before
