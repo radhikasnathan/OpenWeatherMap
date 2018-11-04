@@ -40,7 +40,7 @@ public class BrowserDriver {
              caps.setCapability("platform", System.getenv("OS"));
             caps.setCapability("name", scenario.getName() + "__" + System.getenv("BUILD_NUMBER"));
             driver = new RemoteWebDriver(new URL(SAUCE_LABS_URL), caps);
-            driver.manage().window().maximize();
+            //driver.manage().window().maximize();
             //Sauce labs reporting
             String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s",
                     (((RemoteWebDriver) driver).getSessionId()).toString(), System.getenv("JOB_NAME"));
