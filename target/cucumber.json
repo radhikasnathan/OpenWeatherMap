@@ -1,0 +1,514 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2263045979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify home page of Open Weather Map",
+        "description": "",
+        "id": "end-to-end-test-for-open-weather-map-city-search;verify-home-page-of-open-weather-map",
+        "after": [
+          {
+            "result": {
+              "duration": 103033061,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 127877613,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Web browser is launched",
+            "match": {
+              "location": "CommonSteps.webBrowserIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23385204783,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the Openweathermap home page",
+            "match": {
+              "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167242629,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Openweathermap home page is displayed with links and search box",
+            "match": {
+              "location": "ValidationSteps.openweathermapHomePageIsDisplayedWithLinksAndSearchBox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1222951906,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Invalid City Search",
+        "description": "",
+        "id": "end-to-end-test-for-open-weather-map-city-search;invalid-city-search",
+        "after": [
+          {
+            "result": {
+              "duration": 112210982,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1279691,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Web browser is launched",
+            "match": {
+              "location": "CommonSteps.webBrowserIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33219970719,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the Openweathermap home page",
+            "match": {
+              "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160808249,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"hkjhk\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hkjhk",
+                  "offset": 9
+                }
+              ],
+              "location": "CommonSteps.iEnterInTheSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1513667639,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Search",
+            "match": {
+              "location": "CommonSteps.iClickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056905398,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "No Results should be displayed",
+            "match": {
+              "location": "ValidationSteps.noResultsShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1055451819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Valid City Search",
+        "description": "",
+        "id": "end-to-end-test-for-open-weather-map-city-search;valid-city-search",
+        "after": [
+          {
+            "result": {
+              "duration": 88922267,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1467420,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Web browser is launched",
+            "match": {
+              "location": "CommonSteps.webBrowserIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29040951841,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to the Openweathermap home page",
+            "match": {
+              "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157144302,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter \"Mumbai\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 9
+                }
+              ],
+              "location": "CommonSteps.iEnterInTheSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1392514296,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on Search",
+            "match": {
+              "location": "CommonSteps.iClickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112986846,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"Mumbai\" weather details should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 1
+                }
+              ],
+              "location": "ValidationSteps.weatherDetailsShouldBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1138561922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Zipcode Search",
+        "description": "",
+        "id": "end-to-end-test-for-open-weather-map-city-search;zipcode-search",
+        "after": [
+          {
+            "result": {
+              "duration": 139068508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1675095,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Web browser is launched",
+            "match": {
+              "location": "CommonSteps.webBrowserIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44840278252,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I navigate to the Openweathermap home page",
+            "match": {
+              "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159036461,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter \"53072\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53072",
+                  "offset": 9
+                }
+              ],
+              "location": "CommonSteps.iEnterInTheSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25724832160,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Search",
+            "match": {
+              "location": "CommonSteps.iClickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65135131,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Single or Multiple Cities weather details should be displayed",
+            "match": {
+              "location": "ValidationSteps.singleOrMultipleCitiesWeatherDetailsShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1082574747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Change temperature display from C to F",
+        "description": "",
+        "id": "end-to-end-test-for-open-weather-map-city-search;change-temperature-display-from-c-to-f",
+        "after": [
+          {
+            "result": {
+              "duration": 110918205,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1419113,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Web browser is launched",
+            "match": {
+              "location": "CommonSteps.webBrowserIsLaunched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32862997907,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I navigate to the Openweathermap home page",
+            "match": {
+              "location": "CommonSteps.iNavigateToTheOpenweathermapHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153160934,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter \"Mumbai\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 9
+                }
+              ],
+              "location": "CommonSteps.iEnterInTheSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1396461006,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on Search",
+            "match": {
+              "location": "CommonSteps.iClickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2050119501,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I change the weather swatch to F",
+            "match": {
+              "location": "HomePageSteps.iChangeTheWeatherSwatchToF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1659356927,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on \"Mumbai\" City name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageSteps.iClickOnCityName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99324199,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "\"Mumbai\" City weather should be displayed in Farenheit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 1
+                }
+              ],
+              "location": "ValidationSteps.cityWeatherShouldBeDisplayedInFarenheit(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "End to End test for Open weather map city search",
+    "description": "",
+    "id": "end-to-end-test-for-open-weather-map-city-search",
+    "keyword": "Feature",
+    "uri": "citysearch.feature"
+  }
+]
