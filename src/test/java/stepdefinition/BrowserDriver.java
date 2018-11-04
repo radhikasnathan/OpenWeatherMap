@@ -3,10 +3,7 @@ package stepdefinition;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -22,7 +19,7 @@ public class BrowserDriver {
     public static final String ACCESS_KEY = "dc4f46fb-bcb0-45c1-a670-36789ab103fe";
     public static final String SAUCE_LABS_URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
 
-    public boolean useSauceLabsHub = false;
+    public boolean useSauceLabsHub = true;
 
 
     @Before
@@ -32,9 +29,10 @@ public class BrowserDriver {
          if (useSauceLabsHub) {
 
 
-            DesiredCapabilities caps = DesiredCapabilities.safari();
-             caps.setCapability("platform", "macOS 10.12");
-             caps.setCapability("version", "11.0");
+             DesiredCapabilities caps = new DesiredCapabilities();
+              caps.setBrowserName(System.getenv("SELENIUM_BROWSER"));
+             caps.setCapability("platform", System.getenv("SELENIUM_PLATFORM"));
+             caps.setCapability("version", System.getenv("SELENIUM_VERSION"));
             caps.setCapability("build", scenario.getName() + "__" + System.getenv("BUILD_NUMBER"));
             driver = new RemoteWebDriver(new URL(SAUCE_LABS_URL), caps);
             driver.manage().window().maximize();
